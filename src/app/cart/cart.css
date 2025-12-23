@@ -1,0 +1,147 @@
+.cart {
+  padding: 60px 5%;
+}
+
+.cart h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.cart-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+/* Items */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.cart-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cart-item .info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.cart-item h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.cart-item .category {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.qty {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.qty button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.qty span {
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+.cart-item .price {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.cart-item .remove {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #999;
+}
+
+/* Summary */
+.cart-summary {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  height: fit-content;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.cart-summary h2 {
+  margin-bottom: 20px;
+}
+
+.cart-summary .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.cart-summary .total {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.checkout {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Empty */
+.cart-empty {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.cart-empty a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  background: #111;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .cart-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

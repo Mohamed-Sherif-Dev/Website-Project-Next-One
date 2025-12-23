@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Women's Elegant Summer Dress",
+      "description": "Apple flagship smartphone",
+      "price": 1200,
+      "category": "smartphones",
+      "stock": 15,
+      "rating": 4.8,
+      "thumbnail": "https://i.pinimg.com/736x/dc/22/35/dc2235bbb7c5ae968a36e4fd9f3e1941.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Men's Casual Cotton T-Shirt",
+      "description": "High performance Android phone",
+      "price": 999,
+      "category": "smartphones",
+      "stock": 8,
+      "rating": 4.6,
+      "thumbnail": "https://i.pinimg.com/736x/b7/86/53/b786531b08fc2d838beef541e0c50447.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Women's Oversized Hoodie",
+      "description": "Clean Android experience",
+      "price": 850,
+      "category": "smartphones",
+      "stock": 10,
+      "rating": 4.5,
+      "thumbnail": "https://i.pinimg.com/1200x/7f/94/6a/7f946ad8484f77e08529409b430a9afb.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Men's Classic Denim Jacket",
+      "description": "Lightweight powerful laptop",
+      "price": 1500,
+      "category": "laptops",
+      "stock": 5,
+      "rating": 4.9,
+      "thumbnail": "https://i.pinimg.com/1200x/36/9b/c3/369bc3be09b8f8bf7039225b3029fc69.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Women's Formal Blazer",
+      "description": "Premium developer laptop",
+      "price": 1350,
+      "category": "laptops",
+      "stock": 7,
+      "rating": 4.6,
+      "thumbnail": "https://i.pinimg.com/1200x/c1/6a/a8/c16aa8402016f2eaea10a55ec2142528.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Men's Slim Fit Suit",
+      "description": "2-in-1 convertible laptop",
+      "price": 1400,
+      "category": "laptops",
+      "stock": 4,
+      "rating": 4.4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Women's Casual Sneakers",
+      "description": "Noise cancelling headphones",
+      "price": 400,
+      "category": "audio",
+      "stock": 22,
+      "rating": 4.7,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Men's Running Sports Shoes",
+      "description": "Apple wireless earbuds",
+      "price": 250,
+      "category": "audio",
+      "stock": 18,
+      "rating": 4.6,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Unisex Streetwear Hoodie",
+      "description": "Portable Bluetooth speaker",
+      "price": 180,
+      "category": "audio",
+      "stock": 25,
+      "rating": 4.5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Women's Smart Casual Handbag",
+      "description": "Smartwatch with health features",
+      "price": 450,
+      "category": "wearables",
+      "stock": 12,
+      "rating": 4.5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/13/thumbnail.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Men's Leather Wallet",
+      "description": "Android smartwatch",
+      "price": 380,
+      "category": "wearables",
+      "stock": 9,
+      "rating": 4.4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Women's Winter Scarf",
+      "description": "Advanced fitness tracking",
+      "price": 300,
+      "category": "wearables",
+      "stock": 14,
+      "rating": 4.3,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Men's Casual Polo Shirt",
+      "description": "Tablet for professionals",
+      "price": 1100,
+      "category": "tablets",
+      "stock": 6,
+      "rating": 4.8,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Women's High Waist Jeans",
+      "description": "High-end Android tablet",
+      "price": 900,
+      "category": "tablets",
+      "stock": 7,
+      "rating": 4.6,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Men's Relaxed Fit Jeans",
+      "description": "Affordable productivity tablet",
+      "price": 500,
+      "category": "tablets",
+      "stock": 11,
+      "rating": 4.2,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Women's Evening Dress",
+      "description": "Next-gen gaming console",
+      "price": 600,
+      "category": "gaming",
+      "stock": 3,
+      "rating": 4.9,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Men's Classic Leather Jacket",
+      "description": "Powerful gaming console",
+      "price": 580,
+      "category": "gaming",
+      "stock": 4,
+      "rating": 4.8,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/21/thumbnail.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Unisex Casual Sweatshirt",
+      "description": "Portable gaming console",
+      "price": 350,
+      "category": "gaming",
+      "stock": 10,
+      "rating": 4.7,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/22/thumbnail.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Women's Formal Heels",
+      "description": "Mirrorless camera",
+      "price": 980,
+      "category": "cameras",
+      "stock": 6,
+      "rating": 4.6,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Men's Casual Loafers",
+      "description": "Professional mirrorless camera",
+      "price": 1050,
+      "category": "cameras",
+      "stock": 5,
+      "rating": 4.7,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg"
+    }
+  ]
+}
