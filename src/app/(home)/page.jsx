@@ -5,18 +5,18 @@ import Footer from "../../components/footer/footer";
 import Loading from "./loading";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
+import path from "path";
+import fs from "fs";
+
 
 async function getData() {
-  const res = await fetch("http://localhost:4000/products", {
-    cache: "no-store",
-  });
-
-  if (!res.ok) {
-    notFound();
-  }
-
-  return res.json();
+  const filePath = path.join(process.cwd(), "public", "db.json");
+  const jsonData = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(jsonData);
+  return data;
 }
+
+
 
 export default async function Page() {
   const data = await getData();
@@ -42,7 +42,7 @@ export default async function Page() {
         <h1 className="recommended flex">Recommended for you</h1>
 
         <Suspense fallback={<Loading />}>
-          <Products data={data} />
+          <Products data={data.products} />
         </Suspense>
       </main>
 

@@ -23,6 +23,7 @@ export default function Products({ data }) {
               width={286}
               height={286}
               src={item.thumbnail}
+              style={{objectFit: "cover"}}
               alt={item.title}
             />
           </Link>

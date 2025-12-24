@@ -3,34 +3,49 @@ import Header from "components/header";
 import Footer from "components/footer/footer";
 import "./details.css";
 import { useCart } from "context/CartContext";
-
 import { use, useEffect, useState } from "react";
 
 export default function ProductDetails({ params }) {
-
   const { addToCart } = useCart();
   const { id } = use(params);
-
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetch(`http://localhost:4000/products/${id}`)
-      .then((res) => res.json())
-      .then((data) => {
-        setProduct(data);
-        setLoading(false);
-      });
-  }, [id]);
+
+
+  // useEffect(() => {
+  //   fetch(`http://localhost:4000/products/${id}`)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setProduct(data);
+  //       setLoading(false);
+  //     });
+  // }, [id]);
+
+  useEffect(()=>{
+    fetch("/db.json")
+    .then((res) => res.json())
+    .then((data)=>{
+      const product = data.products.find(
+        (item) => item.id === Number(id)
+      )
+      setProduct(product);
+      setLoading(false);
+    })
+  })
+
+
+
 
   if (loading) {
     return <p style={{ padding: 40 }}>Loading...</p>;
   }
-
   if (!product) {
     return <p style={{ padding: 40 }}>Product not found</p>;
   }
 
+
+ 
   return (
     <div>
       <Header />
